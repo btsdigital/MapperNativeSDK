@@ -1,5 +1,5 @@
 import XCTest
-import MapperNativeSDK
+//import MapperNativeSDK
 
 class Tests: XCTestCase {
     

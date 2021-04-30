@@ -1,0 +1,6 @@
+framework module Pods_MapperNativeSDK_Example {
+  umbrella header "Pods-MapperNativeSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

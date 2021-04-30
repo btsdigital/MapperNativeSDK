@@ -1,0 +1,22 @@
+{
+  "name": "MapperNativeSDK",
+  "version": "0.1.0",
+  "summary": "A short description of MapperNativeSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Askar Syzdykov/MapperNativeSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Askar Syzdykov": "askar.syzdykov@aitupay.kz"
+  },
+  "source": {
+    "git": "https://github.com/Askar Syzdykov/MapperNativeSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MapperNativeSDK/Classes/**/*"
+}
