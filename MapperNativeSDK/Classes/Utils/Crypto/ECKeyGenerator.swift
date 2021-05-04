@@ -157,7 +157,7 @@ final class ECKeyGenerator {
 
             let encryptedPublicKey = try aes256.encrypt(publicKey)
 
-            Logger.log("salt: \(salt.base64Encoded())", type: .crypto, level: .info)
+            Logger.log("salt: \(salt.base64Encoded() ?? "nil")", type: .crypto, level: .info)
             Logger.log("encryptedPublicKey: \(encryptedPublicKey.base64EncodedString())", type: .crypto, level: .info)
             Logger.log("resultKey: \(resultKey.base64EncodedString())", type: .crypto, level: .info)
 

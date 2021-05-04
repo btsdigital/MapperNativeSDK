@@ -64,7 +64,7 @@ extension APIProviderImpl {
                deviceId: String,
                _ completion: @escaping LoginResponseCompletion) {
         let request = SignInRequest(registrationId: registrationId, totp: totp, device: Device(deviceId: deviceId))
-        requestManager.send(request: request, completion: { [weak self] (result: Result<LoginResponse, Error>) in
+        requestManager.send(request: request, completion: { (result: Result<LoginResponse, Error>) in
             if case let .failure(error) = result, let apiError = error as? APIError {
                 if apiError.code == .notRegistered {
 //                    self?.authDelegate?.didResetRegistration(animated: true)

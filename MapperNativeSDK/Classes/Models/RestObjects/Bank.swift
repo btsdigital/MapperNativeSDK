@@ -28,7 +28,7 @@ public final class Bank: Decodable {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         bin = try container.decode(String.self, forKey: .bin)
         name = try container.decode(String.self, forKey: .name)
-        logo = try? container.decodeIfPresent(String.self, forKey: .logo)
+        logo = try! container.decodeIfPresent(String.self, forKey: .logo)
     }
 }
 

@@ -11,9 +11,26 @@
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
-		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		A391AEDBE195CF22975F73AA /* Pods_MapperNativeSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B80D54B417696708465C5E11 /* Pods_MapperNativeSDK_Tests.framework */; };
 		E02A32ACA9D0223F4ABD2A92 /* Pods_MapperNativeSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F833D4416AFC8DB4A96D13B /* Pods_MapperNativeSDK_Example.framework */; };
+		EF6A99F2263BE564002B78A0 /* WorkspaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A99DE263BE563002B78A0 /* WorkspaceViewController.swift */; };
+		EF6A99F3263BE564002B78A0 /* FinInstitutesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A99DF263BE563002B78A0 /* FinInstitutesViewController.swift */; };
+		EF6A99F4263BE564002B78A0 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A99E0263BE563002B78A0 /* RegistrationViewController.swift */; };
+		EF6A99F6263BE564002B78A0 /* IdentificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A99E2263BE564002B78A0 /* IdentificationViewController.swift */; };
+		EF6A99F7263BE564002B78A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A99E3263BE564002B78A0 /* SceneDelegate.swift */; };
+		EF6A99F8263BE564002B78A0 /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A99E5263BE564002B78A0 /* UIView+Anchors.swift */; };
+		EF6A99F9263BE564002B78A0 /* AVSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A99E6263BE564002B78A0 /* AVSessionManager.swift */; };
+		EF6A99FA263BE564002B78A0 /* QRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A99E7263BE564002B78A0 /* QRView.swift */; };
+		EF6A99FB263BE564002B78A0 /* AnchorMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A99E8263BE564002B78A0 /* AnchorMaker.swift */; };
+		EF6A99FC263BE564002B78A0 /* QrScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A99E9263BE564002B78A0 /* QrScanViewController.swift */; };
+		EF6A99FD263BE564002B78A0 /* QRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF6A99EA263BE564002B78A0 /* QRViewController.xib */; };
+		EF6A99FE263BE564002B78A0 /* QrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A99EB263BE564002B78A0 /* QrViewController.swift */; };
+		EF6A99FF263BE564002B78A0 /* AVPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A99EC263BE564002B78A0 /* AVPreviewView.swift */; };
+		EF6A9A00263BE564002B78A0 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A99ED263BE564002B78A0 /* SplashViewController.swift */; };
+		EF6A9A02263BE564002B78A0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A99EF263BE564002B78A0 /* LoginViewController.swift */; };
+		EF6A9A03263BE564002B78A0 /* TransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A99F0263BE564002B78A0 /* TransferViewController.swift */; };
+		EF6A9A04263BE564002B78A0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A99F1263BE564002B78A0 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +58,30 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8385BFC082C0DDC058CA78E0 /* Pods-MapperNativeSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapperNativeSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-MapperNativeSDK_Example/Pods-MapperNativeSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A1A23472077C8026923AB323 /* Pods-MapperNativeSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapperNativeSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-MapperNativeSDK_Tests/Pods-MapperNativeSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B0FF0863CDA6CB5BCC109AE2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B80D54B417696708465C5E11 /* Pods_MapperNativeSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapperNativeSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D82681D1236B86D42C61B1 /* MapperNativeSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MapperNativeSDK.podspec; path = ../MapperNativeSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EB6A473B1CC452FFA5238D26 /* Pods-MapperNativeSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapperNativeSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MapperNativeSDK_Tests/Pods-MapperNativeSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF6A99DD263BE563002B78A0 /* MapperNativeSDKSample.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = MapperNativeSDKSample.entitlements; sourceTree = "<group>"; };
+		EF6A99DE263BE563002B78A0 /* WorkspaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkspaceViewController.swift; sourceTree = "<group>"; };
+		EF6A99DF263BE563002B78A0 /* FinInstitutesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinInstitutesViewController.swift; sourceTree = "<group>"; };
+		EF6A99E0263BE563002B78A0 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		EF6A99E2263BE564002B78A0 /* IdentificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentificationViewController.swift; sourceTree = "<group>"; };
+		EF6A99E3263BE564002B78A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EF6A99E5263BE564002B78A0 /* UIView+Anchors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Anchors.swift"; sourceTree = "<group>"; };
+		EF6A99E6263BE564002B78A0 /* AVSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVSessionManager.swift; sourceTree = "<group>"; };
+		EF6A99E7263BE564002B78A0 /* QRView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRView.swift; sourceTree = "<group>"; };
+		EF6A99E8263BE564002B78A0 /* AnchorMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorMaker.swift; sourceTree = "<group>"; };
+		EF6A99E9263BE564002B78A0 /* QrScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QrScanViewController.swift; sourceTree = "<group>"; };
+		EF6A99EA263BE564002B78A0 /* QRViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QRViewController.xib; sourceTree = "<group>"; };
+		EF6A99EB263BE564002B78A0 /* QrViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QrViewController.swift; sourceTree = "<group>"; };
+		EF6A99EC263BE564002B78A0 /* AVPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVPreviewView.swift; sourceTree = "<group>"; };
+		EF6A99ED263BE564002B78A0 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		EF6A99EF263BE564002B78A0 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EF6A99F0263BE564002B78A0 /* TransferViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransferViewController.swift; sourceTree = "<group>"; };
+		EF6A99F1263BE564002B78A0 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		EFB8446E263C09DE00CF21F5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../../pod/MapperNativeSDK/Example/MapperNativeSDK/Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A391AEDBE195CF22975F73AA /* Pods_MapperNativeSDK_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +128,18 @@
 		607FACD21AFB9204008FA782 /* Example for MapperNativeSDK */ = {
 			isa = PBXGroup;
 			children = (
+				EFB8446E263C09DE00CF21F5 /* Info.plist */,
+				EF6A99DF263BE563002B78A0 /* FinInstitutesViewController.swift */,
+				EF6A99E2263BE564002B78A0 /* IdentificationViewController.swift */,
+				EF6A99EF263BE564002B78A0 /* LoginViewController.swift */,
+				EF6A99F1263BE564002B78A0 /* MainViewController.swift */,
+				EF6A99DD263BE563002B78A0 /* MapperNativeSDKSample.entitlements */,
+				EF6A99E4263BE564002B78A0 /* Qr */,
+				EF6A99E0263BE563002B78A0 /* RegistrationViewController.swift */,
+				EF6A99E3263BE564002B78A0 /* SceneDelegate.swift */,
+				EF6A99ED263BE564002B78A0 /* SplashViewController.swift */,
+				EF6A99F0263BE564002B78A0 /* TransferViewController.swift */,
+				EF6A99DE263BE563002B78A0 /* WorkspaceViewController.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -139,6 +191,8 @@
 			children = (
 				5721EB99EEEFBE7707DFB109 /* Pods-MapperNativeSDK_Example.debug.xcconfig */,
 				8385BFC082C0DDC058CA78E0 /* Pods-MapperNativeSDK_Example.release.xcconfig */,
+				EB6A473B1CC452FFA5238D26 /* Pods-MapperNativeSDK_Tests.debug.xcconfig */,
+				A1A23472077C8026923AB323 /* Pods-MapperNativeSDK_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -147,8 +201,24 @@
 			isa = PBXGroup;
 			children = (
 				4F833D4416AFC8DB4A96D13B /* Pods_MapperNativeSDK_Example.framework */,
+				B80D54B417696708465C5E11 /* Pods_MapperNativeSDK_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF6A99E4263BE564002B78A0 /* Qr */ = {
+			isa = PBXGroup;
+			children = (
+				EF6A99E5263BE564002B78A0 /* UIView+Anchors.swift */,
+				EF6A99E6263BE564002B78A0 /* AVSessionManager.swift */,
+				EF6A99E7263BE564002B78A0 /* QRView.swift */,
+				EF6A99E8263BE564002B78A0 /* AnchorMaker.swift */,
+				EF6A99E9263BE564002B78A0 /* QrScanViewController.swift */,
+				EF6A99EA263BE564002B78A0 /* QRViewController.xib */,
+				EF6A99EB263BE564002B78A0 /* QrViewController.swift */,
+				EF6A99EC263BE564002B78A0 /* AVPreviewView.swift */,
+			);
+			path = Qr;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +232,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
+				350BC1C4467870604605CB3C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -176,6 +247,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MapperNativeSDK_Tests" */;
 			buildPhases = (
+				88D89BD21EDAEBAD5DBA6525 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -237,7 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				EF6A99FD263BE564002B78A0 /* QRViewController.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +324,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		350BC1C4467870604605CB3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MapperNativeSDK_Example/Pods-MapperNativeSDK_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework",
+				"${BUILT_PRODUCTS_DIR}/MapperNativeSDK/MapperNativeSDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainAccess.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapperNativeSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MapperNativeSDK_Example/Pods-MapperNativeSDK_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		4BFC24A90603D7B4AB38043A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -274,6 +368,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		88D89BD21EDAEBAD5DBA6525 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MapperNativeSDK_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -281,8 +397,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF6A99FF263BE564002B78A0 /* AVPreviewView.swift in Sources */,
+				EF6A9A03263BE564002B78A0 /* TransferViewController.swift in Sources */,
+				EF6A99F3263BE564002B78A0 /* FinInstitutesViewController.swift in Sources */,
+				EF6A99F8263BE564002B78A0 /* UIView+Anchors.swift in Sources */,
+				EF6A99F7263BE564002B78A0 /* SceneDelegate.swift in Sources */,
+				EF6A9A04263BE564002B78A0 /* MainViewController.swift in Sources */,
+				EF6A99FA263BE564002B78A0 /* QRView.swift in Sources */,
+				EF6A99FC263BE564002B78A0 /* QrScanViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				EF6A99F6263BE564002B78A0 /* IdentificationViewController.swift in Sources */,
+				EF6A99F9263BE564002B78A0 /* AVSessionManager.swift in Sources */,
+				EF6A9A00263BE564002B78A0 /* SplashViewController.swift in Sources */,
+				EF6A99FE263BE564002B78A0 /* QrViewController.swift in Sources */,
+				EF6A99FB263BE564002B78A0 /* AnchorMaker.swift in Sources */,
+				EF6A99F2263BE564002B78A0 /* WorkspaceViewController.swift in Sources */,
+				EF6A9A02263BE564002B78A0 /* LoginViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				EF6A99F4263BE564002B78A0 /* RegistrationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,7 +501,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -415,7 +547,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -429,12 +561,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MapperNativeSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = AituPR.MapperNativeSDKSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -444,17 +577,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MapperNativeSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = AituPR.MapperNativeSDKSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB6A473B1CC452FFA5238D26 /* Pods-MapperNativeSDK_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -476,6 +611,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1A23472077C8026923AB323 /* Pods-MapperNativeSDK_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",

@@ -2,8 +2,8 @@
   "name": "MapperNativeSDK",
   "version": "0.1.0",
   "summary": "A short description of MapperNativeSDK.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Askar Syzdykov/MapperNativeSDK",
+  "description": "This is SDK should be used by financial institutes",
+  "homepage": "https://github.com/btsdigital/MapperNativeSDK",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,20 @@
     "Askar Syzdykov": "askar.syzdykov@aitupay.kz"
   },
   "source": {
-    "git": "https://github.com/Askar Syzdykov/MapperNativeSDK.git",
+    "git": "https://github.com/btsdigital/MapperNativeSDK",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "11.0"
   },
-  "source_files": "MapperNativeSDK/Classes/**/*"
+  "source_files": "MapperNativeSDK/Classes/**/*.swift",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "CryptoSwift": [
+      "= 1.3.1"
+    ],
+    "KeychainAccess": [
+      "= 4.2.0"
+    ]
+  }
 }
